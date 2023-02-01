@@ -136,7 +136,7 @@ export default function Home({ initialValue }) {
       <main className={styles.container}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
           <h1 style={{ marginBottom: '10px' }}>Rich Text with SlateJS</h1>
-          <a href="https://github.com/ihsanrabb/rich-editor" target="_blank">Source code</a>
+          <a href="https://github.com/ihsanrabb/rich-editor" target="_blank" rel="noreferrer">Source code</a>
         </div>
         <div className={styles.editor_wrapper}>
           <Slate 
